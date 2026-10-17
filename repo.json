@@ -1,0 +1,31 @@
+[
+  {
+    "Author": "Panda",
+    "Name": "XIV Fleet Companion",
+    "InternalName": "XIVFleetCompanion",
+    "AssemblyVersion": "0.12.0.0",
+    "Description": "Got a massive fleet of submarines? Always struggling to see which ones need upgrades? Wanna see your multi-account fleet at a glance? Give this a try!",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/CrownedPandaXIV/XIVFleetCompanion",
+    "Tags": [
+      "submarine",
+      "fleet",
+      "tracker"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Here to help manage your EMPIAH!",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v0.12.0/XIVFleetCompanion-0.12.0.zip",
+    "DownloadLinkTesting": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v0.12.0/XIVFleetCompanion-0.12.0.zip",
+    "DownloadLinkUpdate": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v0.12.0/XIVFleetCompanion-0.12.0.zip",
+    "IconUrl": "https://raw.githubusercontent.com/CrownedPandaXIV/XIVFleetCompanion/master/Data/submarine.png",
+    "LastUpdate": 1792232186,
+    "Changelog": "No database change. For app 0.23.2.\n\n- **FCTracker and SubmarineTracker: running, not just installed.** The app's PCs tab now shows whether each is\n  loaded in that game, for that account (from Dalamud's list of loaded plugins), like AutoRetainer and\n  AllaganTools. Before, it only showed whether their files existed, which stays true when they are turned\n  off, and on a PC running two accounts one account's files counted for both.\n- With subs and SubmarineTracker installed but not running: \"SubmarineTracker is not running: new voyages'\n  loot is not recorded.\" Voyages already in its file are still read.\n- **Check what I can see** says whether FCTracker is running, installed but not running (its last saved\n  details are still used), or not found.\n- If Dalamud cannot be asked, the files decide, as before.",
+    "IsHide": false,
+    "IsTestingExclusive": false
+  }
+]
