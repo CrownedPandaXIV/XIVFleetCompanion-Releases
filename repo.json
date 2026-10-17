@@ -3,8 +3,8 @@
     "Author": "Panda",
     "Name": "XIV Fleet Companion",
     "InternalName": "XIVFleetCompanion",
-    "AssemblyVersion": "0.13.3.0",
-    "Description": "Got a massive fleet of submarines? Always struggling to see which ones need upgrades? Wanna see your multi-account fleet at a glance? Give this a try!",
+    "AssemblyVersion": "0.13.4.0",
+    "Description": "Got a massive fleet of submarines? Always struggling to see which ones need upgrades? Wanna see your multi-account fleet at a glance? Give this a try! Needs AutoRetainer (from https://love.puni.sh/ment.json) and works best with Allagan Tools. Optional: FC Tracker (from https://puni.sh/api/repository/erdelf) and Submarine Tracker. Thanks to kawaii, NightmareXIV and the Puni.sh team, Critical_Impact, erdelf and Infi for their plugins.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/CrownedPandaXIV/XIVFleetCompanion",
     "Tags": [
@@ -19,12 +19,12 @@
     "LoadPriority": 0,
     "Punchline": "Here to help manage your EMPIAH!",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v0.13.3/XIVFleetCompanion-0.13.3.zip",
-    "DownloadLinkTesting": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v0.13.3/XIVFleetCompanion-0.13.3.zip",
-    "DownloadLinkUpdate": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v0.13.3/XIVFleetCompanion-0.13.3.zip",
+    "DownloadLinkInstall": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v0.13.4/XIVFleetCompanion-0.13.4.zip",
+    "DownloadLinkTesting": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v0.13.4/XIVFleetCompanion-0.13.4.zip",
+    "DownloadLinkUpdate": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v0.13.4/XIVFleetCompanion-0.13.4.zip",
     "IconUrl": "https://raw.githubusercontent.com/CrownedPandaXIV/XIVFleetCompanion/master/Data/submarine.png",
-    "LastUpdate": 1792272134,
-    "Changelog": "No database change. Works with any app version.\n\n- The main window's status says \"running\" and \"not running\", the same words as /xivfleet check, instead of \"OK\" and \"Not found / not running\". \"Postgres: Configured\" reads \"Database: set up\".",
+    "LastUpdate": 1792277399,
+    "Changelog": "No database change. Works with any app version.\n\n- The plugin's description in Dalamud's plugin list now says it needs AutoRetainer and works best with Allagan Tools, with the repository addresses for AutoRetainer and FC Tracker, and thanks the people who make them.\n- The README lists the repository to add for each plugin it works with, and has a Thanks section: kawaii, NightmareXIV and the Puni.sh team (AutoRetainer), Critical_Impact (Allagan Tools), erdelf (FC Tracker) and Infi (Submarine Tracker).\n- The plugin's windows and messages now write the plugins' names the way their makers do: Allagan Tools, FC Tracker, Submarine Tracker.",
     "IsHide": false,
     "IsTestingExclusive": false
   }
