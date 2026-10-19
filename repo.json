@@ -23,7 +23,7 @@
     "DownloadLinkTesting": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v0.14.1/XIVFleetCompanion-0.14.1.zip",
     "DownloadLinkUpdate": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v0.14.1/XIVFleetCompanion-0.14.1.zip",
     "IconUrl": "https://raw.githubusercontent.com/CrownedPandaXIV/XIVFleetCompanion/master/Data/submarine.png",
-    "LastUpdate": 1792390371,
+    "LastUpdate": 1792394124,
     "Changelog": "No database change. Works with any app version.\n\n- The main window says when syncing isn't getting through, under \"Last sync\", in plain words: for example \"Can't reach the database. Check the PC with the database is on, and that Tailscale is connected if you use it.\" It goes as soon as a sync gets through again.\n- A quieter log: a problem like that is written to the log once, not with a long error every sync, and the log says when syncing works again.\n- Removed the Read My Character Data and Read My Inventory test buttons from the main window. Check what I can see shows the same and more.",
     "IsHide": false,
     "IsTestingExclusive": false
