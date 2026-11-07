@@ -20,14 +20,14 @@
     "Punchline": "Here to help manage your EMPIAH!",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v1.0.3/XIVFleetCompanion-1.0.3.zip",
-    "DownloadLinkTesting": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/testing/XIVFleetCompanion-2.0.0.35.zip",
+    "DownloadLinkTesting": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/testing/XIVFleetCompanion-2.0.0.36.zip",
     "DownloadLinkUpdate": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v1.0.3/XIVFleetCompanion-1.0.3.zip",
     "IconUrl": "https://raw.githubusercontent.com/CrownedPandaXIV/XIVFleetCompanion/master/Data/submarine.png",
-    "LastUpdate": 1794019799,
+    "LastUpdate": 1794022650,
     "Changelog": "Goes with app 1.7.0, which removes the Discord alerts.\n\n- The settings no longer mention the Discord alerts (the tooltip of \"Also sync right after a character logs out\"), and neither does the download page.",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "TestingAssemblyVersion": "2.0.0.35",
+    "TestingAssemblyVersion": "2.0.0.36",
     "TestingDalamudApiLevel": 15
   }
 ]
