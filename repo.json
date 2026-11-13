@@ -3,7 +3,7 @@
     "Author": "CrownedPandaXIV",
     "Name": "XIV Fleet Companion",
     "InternalName": "XIVFleetCompanion",
-    "AssemblyVersion": "2.4.1.52",
+    "AssemblyVersion": "2.4.2.53",
     "Description": "Got a massive fleet of submarines? Always struggling to see which ones need upgrades? Wanna see your multi-account fleet at a glance? Give this a try!\n\nSubs and their routes, supplies, parts, retainers, Free Companies, inventories, income, the market and trends, all in the game. Keep your fleet on this PC with nothing else to install, or share it between PCs (and with the free Windows app) through a database. Type /xivfleet to start.\n\nNeeds:\n• AutoRetainer (from https://love.puni.sh/ment.json)\n\nWorks best with:\n• Allagan Tools: bags, retainers' items and FC chests\n• FC Tracker (from https://puni.sh/api/repository/erdelf): FC houses\n• Submarine Tracker: voyage loot\n\nThanks to kawaii, NightmareXIV and the Puni.sh team (AutoRetainer), Critical_Impact (Allagan Tools), erdelf (FC Tracker) and Infi (Submarine Tracker) for their plugins.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/CrownedPandaXIV/XIVFleetCompanion",
@@ -19,15 +19,13 @@
     "LoadPriority": 0,
     "Punchline": "Here to help manage your EMPIAH!",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v2.4.1/XIVFleetCompanion-2.4.1.zip",
-    "DownloadLinkTesting": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/testing/XIVFleetCompanion-2.4.2.52.zip",
-    "DownloadLinkUpdate": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v2.4.1/XIVFleetCompanion-2.4.1.zip",
+    "DownloadLinkInstall": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v2.4.2/XIVFleetCompanion-2.4.2.zip",
+    "DownloadLinkTesting": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v2.4.2/XIVFleetCompanion-2.4.2.zip",
+    "DownloadLinkUpdate": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v2.4.2/XIVFleetCompanion-2.4.2.zip",
     "IconUrl": "https://raw.githubusercontent.com/CrownedPandaXIV/XIVFleetCompanion/master/Data/submarine.png",
-    "LastUpdate": 1794583011,
-    "Changelog": "- /xivfleet routes and /xivfleet trends are now in the command's help, which is made from the window's pages so it can't leave one out again. A word it doesn't know (a typo) opens the window and says in chat which words there are, instead of quietly closing the window when it was open.\n- Plainer messages when the fleet file can't be used: a full disk, a file that can't be written to or opened, and a damaged file (with where to restore a backup) now say so in plain words, and are logged once instead of at every sync.\n- Live Market Prices say plainly when Universalis doesn't answer in the 20 seconds allowed (\"no answer in 20 seconds\"), the same as the app's (1.10.2).\n- Messages about the shared database no longer assume you have the app: they point to your other PCs and to Settings → Database tools.\n- The plugin's description in Dalamud's list, and the download page, now say what the plugin does on its own since 2.4.0, and that the app and PostgreSQL are only needed for some setups.",
+    "LastUpdate": 1794600662,
+    "Changelog": "- Big tables don't slow the game down when sorted. A table sorted by a column was sorted again every frame: with 10,000 rows by name, about 9 ms of the 16.7 ms a frame has at 60 fps. It's now sorted again only when its rows or the sort change (or once a second): 0.17 ms a frame for the same table.\n- Database tools check the port first: Set up this PC, New database, Move the database to this PC, Let other PCs connect and Leftovers take a whole number from 1 to 65535, and say so plainly otherwise, before anything starts (Set up this PC installs PostgreSQL on it). The same as the app's (1.10.3).",
     "IsHide": false,
-    "IsTestingExclusive": false,
-    "TestingAssemblyVersion": "2.4.2.52",
-    "TestingDalamudApiLevel": 15
+    "IsTestingExclusive": false
   }
 ]
