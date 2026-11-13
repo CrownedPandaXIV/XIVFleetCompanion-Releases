@@ -20,12 +20,14 @@
     "Punchline": "Here to help manage your EMPIAH!",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v2.4.0/XIVFleetCompanion-2.4.0.zip",
-    "DownloadLinkTesting": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v2.4.0/XIVFleetCompanion-2.4.0.zip",
+    "DownloadLinkTesting": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/testing/XIVFleetCompanion-2.4.1.51.zip",
     "DownloadLinkUpdate": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v2.4.0/XIVFleetCompanion-2.4.0.zip",
     "IconUrl": "https://raw.githubusercontent.com/CrownedPandaXIV/XIVFleetCompanion/master/Data/submarine.png",
-    "LastUpdate": 1794564392,
+    "LastUpdate": 1794571046,
     "Changelog": "Everything the app does, now in the game too: the plugin no longer needs the app for anything.\n\n- Export any table, as the app does: every table has an Export button (beside Columns) with Copy table, to paste into a spreadsheet, and Export to CSV, which saves the same file the app does (Documents to start with). It's the whole table in the order shown, every row (not only those on screen), each cell as it reads.\n- Backups of the shared database (Settings → Backups of the shared database), the same backups the app makes and sharing its settings on a PC with both: Back up now, a daily backup (made by a running game when the app's scheduled task isn't on this PC), a second copy, how many to keep, Test (loads one into a scratch database and compares it), Restore (backs up first, so it can be undone), Restore from a file, and Get the backup tools for a PC without PostgreSQL (only pg_dump and pg_restore, from PostgreSQL's maker, checksum checked).\n- Database tools (Settings), as the app's Setup Help and Database tab:\n- Set up this PC: installs PostgreSQL and Tailscale (downloaded from their makers, checksum checked), lets other PCs connect, and makes the database and its login, with one Windows permission prompt. Then Sign in to Tailscale.\n- New database on this PC, Let other PCs connect, and What another PC needs (the details to type there).\n- Move the database to this PC: checked first, one consistent copy, every table compared, and only then every PC and app switched over. Anything that goes wrong before that puts everything back; the old database is never deleted.\n- Leftovers from moving the database, and Remove everything from this PC (only what was set up for the fleet; a final backup first if you like).",
     "IsHide": false,
-    "IsTestingExclusive": false
+    "IsTestingExclusive": false,
+    "TestingAssemblyVersion": "2.4.1.51",
+    "TestingDalamudApiLevel": 15
   }
 ]
