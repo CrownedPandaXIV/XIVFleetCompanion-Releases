@@ -20,12 +20,14 @@
     "Punchline": "Here to help manage your EMPIAH!",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v2.4.2/XIVFleetCompanion-2.4.2.zip",
-    "DownloadLinkTesting": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v2.4.2/XIVFleetCompanion-2.4.2.zip",
+    "DownloadLinkTesting": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/testing/XIVFleetCompanion-2.4.2.53.zip",
     "DownloadLinkUpdate": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v2.4.2/XIVFleetCompanion-2.4.2.zip",
     "IconUrl": "https://raw.githubusercontent.com/CrownedPandaXIV/XIVFleetCompanion/master/Data/submarine.png",
-    "LastUpdate": 1794600662,
+    "LastUpdate": 1794840614,
     "Changelog": "- Big tables don't slow the game down when sorted. A table sorted by a column was sorted again every frame: with 10,000 rows by name, about 9 ms of the 16.7 ms a frame has at 60 fps. It's now sorted again only when its rows or the sort change (or once a second): 0.17 ms a frame for the same table.\n- Database tools check the port first: Set up this PC, New database, Move the database to this PC, Let other PCs connect and Leftovers take a whole number from 1 to 65535, and say so plainly otherwise, before anything starts (Set up this PC installs PostgreSQL on it). The same as the app's (1.10.3).",
     "IsHide": false,
-    "IsTestingExclusive": false
+    "IsTestingExclusive": false,
+    "TestingAssemblyVersion": "2.4.2.53",
+    "TestingDalamudApiLevel": 15
   }
 ]
