@@ -20,14 +20,14 @@
     "Punchline": "Here to help manage your EMPIAH!",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v2.4.8/XIVFleetCompanion-2.4.8.zip",
-    "DownloadLinkTesting": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/testing/XIVFleetCompanion-2.5.0.69.zip",
+    "DownloadLinkTesting": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/testing/XIVFleetCompanion-2.5.0.70.zip",
     "DownloadLinkUpdate": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v2.4.8/XIVFleetCompanion-2.4.8.zip",
     "IconUrl": "https://raw.githubusercontent.com/CrownedPandaXIV/XIVFleetCompanion/master/Data/submarine.png",
-    "LastUpdate": 1795254065,
+    "LastUpdate": 1795265491,
     "Changelog": "- Supplies: the table stays below its controls. After any change was saved in the plugin, the table moved up beside the \"Buy enough for … days\" controls until the plugin was reloaded.\n- Income: the explanation sits below the \"Income over … days\" choice instead of beside it.",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "TestingAssemblyVersion": "2.5.0.69",
+    "TestingAssemblyVersion": "2.5.0.70",
     "TestingDalamudApiLevel": 15
   }
 ]
