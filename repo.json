@@ -20,14 +20,14 @@
     "Punchline": "Here to help manage your EMPIAH!",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v2.7.3/XIVFleetCompanion-2.7.3.zip",
-    "DownloadLinkTesting": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/testing/XIVFleetCompanion-2.7.4.1.zip",
+    "DownloadLinkTesting": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/testing/XIVFleetCompanion-2.7.4.2.zip",
     "DownloadLinkUpdate": "https://github.com/CrownedPandaXIV/XIVFleetCompanion/releases/download/v2.7.3/XIVFleetCompanion-2.7.3.zip",
     "IconUrl": "https://raw.githubusercontent.com/CrownedPandaXIV/XIVFleetCompanion/master/Data/submarine.png",
-    "LastUpdate": 1795854399,
+    "LastUpdate": 1795856603,
     "Changelog": "### Changed\n- Supplies: held ceruleum and repair kits follow the low-supply warnings (Settings → Warnings), as the Characters list does: amber under the warning, red under half of it, green otherwise, the warning on hover. Before, they were coloured by days left.\n- Supplies: To buy follows days left, each supply on its own: red under 3 days, amber under 7, green otherwise (it was always amber), as the app's.",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "TestingAssemblyVersion": "2.7.4.1",
+    "TestingAssemblyVersion": "2.7.4.2",
     "TestingDalamudApiLevel": 15
   }
 ]
